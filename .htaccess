@@ -1,0 +1,25 @@
+RewriteEngine On
+
+<Files *.php>
+    Require all denied
+</Files>
+
+<Files index.php>
+    Require all granted
+</Files>
+
+<Files func_login.php>
+    Require all granted
+</Files>
+
+<Files func_logout.php>
+    Require all granted
+</Files>
+
+<Files func_insert_data.php>
+    Require all granted
+</Files>
+
+<Files func_delete_article.php>
+    Require all granted
+</Files>

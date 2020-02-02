@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body, a, label, input {
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0,0.7);
+}

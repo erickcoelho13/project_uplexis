@@ -1,0 +1,20 @@
+body {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,107,141,1) 0%, rgba(0,69,91,1) 90% );
+}
+
+div.form-container > div.php-message {
+    background: red;
+    padding: 2em;
+    color: #ffffff;
+    text-align: center;
+}
+
+div.form-container > div p {
+    text-align: center;
+    color: #ffffff;
+}
+
+div.form-container > div p:first-child span {
+    font-size: 1.5em;
+    font-weight: 700;
+}

@@ -1,0 +1,22 @@
+.button {
+	background: none;
+	transition: background-color ease 1s;
+	display: inline-block;
+    padding: 0 5em;
+    height: 3em;
+    line-height: 3em;
+	font-weight: 700;
+	text-decoration: none;
+    color: rgb(255, 255, 255);
+	border: 0;
+    border-radius: 0.5em;
+	cursor: pointer;
+}
+
+.button.green {
+	background: rgba(50, 186, 124, 0.8);
+}
+
+.button.green:hover {
+	background: rgba(50, 186, 124, 1);
+}
